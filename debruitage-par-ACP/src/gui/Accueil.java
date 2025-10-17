@@ -32,7 +32,7 @@ public class Accueil extends Application {
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Page d'accueil");
 
-        Label welcomeLabel = new Label("Bienvenue sur notre logiciel de bruitage et débruitage d'images");
+        Label welcomeLabel = new Label("Bienvenue sur le logiciel de bruitage et débruitage d'images");
         welcomeLabel.setFont(Font.font("Calibri Math", 20));
         welcomeLabel.setStyle("-fx-text-fill: #3d2b2b;");
 
@@ -41,7 +41,7 @@ public class Accueil extends Application {
                 "-fx-font-size: 16px; -fx-padding: 10px 20px; -fx-background-color: linear-gradient(to bottom, white, #d1ad9c); -fx-text-fill: black;");
         applyButtonEffect(startButton);
 
-        Label creditsLabel = new Label("Logiciel développé par Mohamed, Lisa, Hugo, Paul et Raphael");
+        Label creditsLabel = new Label("Logiciel développé pour la première année d'école d'ingénieur.");
         creditsLabel.setFont(Font.font("Calibri Math", 12));
         creditsLabel.setStyle("-fx-text-fill: #3d2b2b;");
 
